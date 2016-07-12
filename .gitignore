@@ -1,0 +1,5 @@
+**/*.pem
+root/.*
+**/index.txt*
+**/serial*
+**/crlnumber
