@@ -26,7 +26,7 @@ openssl req -config intermediate/openssl.cnf \
       -new -sha256 -out $OUT/$NAME.csr
 
 openssl ca -config intermediate/openssl.cnf \
-      -extensions server_cert -days 375 -notext -md sha256 \
+      -extensions server_cert -days 3650 -notext -md sha256 \
       -in $OUT/$NAME.csr \
       -out $OUT/$NAME.crt
 
